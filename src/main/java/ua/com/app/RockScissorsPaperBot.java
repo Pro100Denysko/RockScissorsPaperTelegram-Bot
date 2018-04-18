@@ -16,7 +16,7 @@ public class RockScissorsPaperBot extends TelegramLongPollingBot {
   private final static String PAPER_EMOJI = EmojiParser.parseToUnicode(PAPER);
   private final static String SCISSORS_EMOJI = EmojiParser.parseToUnicode(SCISSORS);
   private final static String ROCK_EMOJI = EmojiParser.parseToUnicode(ROCK);
-
+//
   @Override
   public void onUpdateReceived(Update update) {
     if (update.hasMessage() && update.getMessage().hasText()) {
