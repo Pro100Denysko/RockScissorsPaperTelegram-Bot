@@ -79,6 +79,6 @@ public class RockScissorsPaperBot extends TelegramLongPollingBot {
   }
 
   public String getBotToken() {
-    return "token";
+    return "591529694:AAGvFBtcT5G0CGID3JN8j-vDrcjjqMKkQCI";
   }
 }
